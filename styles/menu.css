@@ -1,0 +1,10 @@
+menu{
+
+}
+
+/* Mobile */
+@media screen and (max-width:380px){
+    menu{
+        background-color: blue;
+    }
+}

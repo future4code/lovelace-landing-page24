@@ -1,0 +1,11 @@
+header{
+
+}
+
+/* Mobile */
+@media screen and (max-width:380px){
+    header{
+        background-color: blue;
+    }
+}
+
