@@ -1,8 +1,20 @@
 main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
     width: 100vw;
     height: 80vh;
 
     background-color: rgb(148, 207, 148);
+}
+
+section{
+    width: 90%;
+    height: 20rem;
+
+    border: 1px solid black;
 }
 
 /* Mobile */
