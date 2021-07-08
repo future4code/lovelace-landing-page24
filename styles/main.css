@@ -1,0 +1,13 @@
+main{
+    width: 100vw;
+    height: 80vh;
+
+    background-color: rgb(148, 207, 148);
+}
+
+/* Mobile */
+@media screen and (max-width:380px){
+    main{
+        background-color: blue;
+    }
+}
