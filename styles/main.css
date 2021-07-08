@@ -4,16 +4,19 @@ main{
     justify-content: space-around;
     align-items: center;
 
-    width: 100vw;
-    height: 80vh;
+    width: 100%;
+    padding: 5rem 0;
 
+    height: 80vh;
     background-color: rgb(148, 207, 148);
 }
 
 section{
     width: 90%;
-    height: 20rem;
+    margin: 3rem 0;
 
+    
+    height: 100px;
     border: 1px solid black;
 }
 
