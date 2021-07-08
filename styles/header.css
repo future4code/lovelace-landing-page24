@@ -1,5 +1,6 @@
 header{
 
+
 }
 
 /* Mobile */
@@ -9,3 +10,30 @@ header{
     }
 }
 
+
+.cabecalho {
+background-color: hsl(224, 87%, 27%);
+display: flex;
+justify-content:space-between;
+align-items: center;
+margin: 2px;
+border: black;
+padding: 2px;
+}
+
+
+
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 450px;
+color: blue;
+}
+
+
+
+
+
+img{
+    height: 100px;
+}
