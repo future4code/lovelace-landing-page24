@@ -3,9 +3,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
 
-<<<<<<< HEAD
 
-=======
     width: 100vw;
     height: 10vh;
 
@@ -24,7 +22,6 @@ header{
     height: 90%;
 
     border: 1px solid black;
->>>>>>> master
 }
 
 /* Mobile */
