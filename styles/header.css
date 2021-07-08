@@ -4,6 +4,26 @@ header{
     justify-content: space-between;
 
 
+    width: 100vw;
+    height: 10vh;
+
+    background-color: cadetblue;
+}
+
+.logo{
+    width: 30%;
+    height: 90%;
+
+    border: 1px solid black;
+}
+
+.busca{
+    width: 50%;
+    height: 90%;
+
+    border: 1px solid black;
+}
+
 /* Mobile */
 @media screen and (max-width:380px){
     header{
