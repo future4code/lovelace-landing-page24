@@ -1,4 +1,6 @@
-header{
+
+
+/*header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,6 +26,14 @@ header{
     border: 1px solid black;
 }
 
+.busca{
+    padding: 10px;
+    margin: 10px;
+    width: 450px;
+color: blue;
+}
+
+
 /* Mobile */
 @media screen and (max-width:380px){
     header{
@@ -32,7 +42,9 @@ header{
 }
 
 
-.cabecalho {
+
+
+.logo {
 background-color: hsl(224, 87%, 27%);
 display: flex;
 justify-content:space-between;
@@ -43,8 +55,7 @@ padding: 2px;
 }
 
 
-
-input{
+.busca{
     padding: 10px;
     margin: 10px;
     width: 450px;
@@ -55,6 +66,10 @@ color: blue;
 
 
 
+
+
 img{
     height: 100px;
 }
+
+
