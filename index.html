@@ -13,6 +13,7 @@
 </head>
 
 <body>
+
     <!-- Cabeçalho -->
     <header>
         <!-- Botao ativar menu -->
@@ -120,6 +121,20 @@
             </p>
         </div>
     </footer>
+
+    <script defer>
+        const bt_menu = document.querySelector('button')
+
+        bt_menu.addEventListener("click", e => {
+            const nav = document.querySelector("nav")
+
+            if(nav.style.display === 'none')
+                nav.style.display = 'block'
+            else
+                nav.style.display = 'none'
+
+        })
+    </script>
 </body>
 
 </html>
