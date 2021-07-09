@@ -7,9 +7,9 @@ header{
 
 
     width: 100%;
-    height: 100px;
+    height: 20vh;
 
-    background-color: #45689D;
+    background-color: #DAE5E8;
 }
 
 header button{
@@ -61,7 +61,7 @@ header > img {
 /* Mobile */
 @media screen and (max-width:380px){
     header {
-        height: 30px;
+        height: 12vh;
 
         justify-content: space-around;
         background-color: #DAE5E8;
@@ -76,14 +76,14 @@ header > img {
     }
 
     .busca{
-        height: 90%;
+        height: 60%;
         width: fit-content;
     }
     .busca input{
         display: none;
     }
     .busca img {
-        width: 5vw;
+        display: none;
     }
 
 }
