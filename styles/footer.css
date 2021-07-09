@@ -5,7 +5,8 @@ footer{
     width: 100%;
     height: fit-content;
 
-    background-color: #A19F9F;
+    background-color: #949393;
+    color: white;
 }
 
 footer > div {
@@ -15,6 +16,42 @@ footer > div {
     align-items: center;
 
     padding: 10vh 0;
+}
+
+footer div img {
+    width: 100%;
+}
+
+footer .redes-sociais{
+    width: 40%;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .redes-sociais img{
+    width: 90%;
+}
+
+footer .quem-somos p{
+    margin-top: 2rem;
+    width: 50%;
+    text-align: justify;
+    text-indent: 1rem;
+}
+
+footer .cadastro p{
+    margin-top: 2rem;
+    width: 60%;
+    /* text-align: justify; */
+    text-indent: 1rem;
+}
+
+footer div a:visited{
+    color: white;
 }
 
 /* Mobile */
