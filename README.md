@@ -9,3 +9,5 @@
 
 <img src="./img/4comfort.png" width="300px" height="300px">
 <a href="noisy-edge.surge.sh">Ver o site</a>
+
+<img src="Captura de tela de 2021-07-09 16-49-28.png">
