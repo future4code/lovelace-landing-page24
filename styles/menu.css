@@ -1,24 +1,8 @@
 
- 
-section{
-    color: tomato;
-   
-
-}
-
-section h2 {
-   
-
-}
-
-
-
 
 
 /* Mobile */
 @media screen and (max-width:380px){
-    menu{
-        background-color: blue;
-    }
+
 }
 
