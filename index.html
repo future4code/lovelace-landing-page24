@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <title>4Comfort</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <!-- Botao ativar menu -->
+        <button>Menu</button>
+
+        <!-- Logo -->
+        <img src="/img/4comfort.png" alt="Logo da empresa">
+
+        <!-- Buscador -->
+        <div class="busca">
+            <input type="text" placeholder="DIGITE O QUE PROCURA">
+            <img src="./img/lupa2.png" alt="lupa">
+        </div>
+    </header>
+
+    <!-- Navbar -->
+
+    <nav class="menu-navegar">
+        <ul>
+            <li><a href="">Lançamentos</a></li>
+            <li><a href="#quem-somos">Quem somos</a></li>
+            <li><a href="#cadastrar">Cadastro</a></li>
+            <li><a href="#modelo-masculino">Modelo masculino</a></li>
+            <li><a href="#modelo-feminino">Modelo feminino</a></li>
+            <li><a href="#modelo-infantil">Modelo infantil</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo -->
+    <main>
+        <h1>Aqui seu conforto está em primeiro lugar!</h1>
+
+        <section  class="pagina-inicial">
+            <h2>Onde todos o atetlas se encontram!</h2>
+            <img src="./img/tenis.jpg" alt="foto tênis">
+        </section>
+
+
+        <section id="quem-somos">
+            <h2>Quem Somos</h2>
+            <h3> 4Comfort é uma nova empresa cuja proposta  é oferecer o tênis mais confortável possível. 
+                Seguindo modelos americanos como Allbirds  e Atom, o tênis é voltado para um público que 
+                trabalha em ambientes casuais e se destaca por ser vendido exclusivamente online.</h3>
+        </section>
+
+        <section id="modelo-feminino">
+            <h2>Modelo Feminino</h2>
+            <img src="/img/tenis-feminino 1.png" alt="modelo Feminino">
+        </section>
+        <section id="modelo-masculino">
+            <h2>Modelo Masculino</h2>
+            <img src="/img/tenis-masculino 1.png" alt="modelo Masculino">
+        </section>
+
+        <section id="modelo-infantil">
+            <h2>Modelo Infantil</h2>
+            <img src="/img/tenis-infantil 1.png" alt="modelo Infantil">
+        </section>
+        <section id="cadastrar">
+            <h2>Cadastre-se</h2>
+            <h5>E-MAIL</h5>
+            <input type="text" class="casdastro" placeholder="DIGITE SEU E-MAIL">
+
+            <input type="text" class="casdastro" placeholder="CONFIRMAÇÃO DE E-MAIL">
+            <input type="text" class="casdastro" placeholder="ENVIAR">
+        </section>
+    </main>
+
+    <!-- Roda pé -->
+    <footer>
+        <div class="forma-pagamento">
+            <h3>FORMAS DE PAGAMENTO</h3>
+            <img src="./img/cartoes.png" alt="cartões">
+        </div>
+        <div class="rede-social">
+            <h3>REDES SOCIAIS</h3>
+            <div class="redes-sociais">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="./img/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="./img/instagram.png" alt="instagram">
+                </a>
+                <a href="https://twitter.com/?lang=en" target="_blank">
+                    <img src="./img/twitter.png" alt="twitter">
+                </a>
+            </div>
+        </div>
+        <div class="quem-somos">
+            <a href="#quem-somos">
+                <h3>QUEM SOMOS</h3>
+            </a>
+            <p>
+                    <strong>4Comfort</strong> é uma
+                nova empresa
+                cuja proposta é 
+                oferecer o tênis mais
+                confortável possível.
+            </p>
+        </div>
+        <div class="cadastro">
+            <a href="#cadastrar">
+                <h3>CADASTRE-SE AQUI</h3>
+            </a>
+            <p>
+                Seja mebro e receba diversas promoções. 
+            </p>
+        </div>
+    </footer>
+
+    <script defer>
+        const bt_menu = document.querySelector('button')
+
+        bt_menu.addEventListener("click", e => {
+            const nav = document.querySelector("nav")
+
+            if(nav.style.display === 'none')
+                nav.style.display = 'block'
+            else
+                nav.style.display = 'none'
+
+        })
+    </script>
+</body>
+
+</html>
